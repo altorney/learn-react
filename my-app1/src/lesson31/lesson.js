@@ -6,19 +6,14 @@ class Lesson extends React.Component {
   constructor() {
     super();
     this.state = {
-      answer: "I have state",
+      todosData: todosData,
     };
   }
   render() {
-    const toDosComponents = todosData.map((item) => (
+    const toDosComponents = this.state.todosData.map((item) => (
       <ToDoItem key={item.id} item={item} />
     ));
-    return (
-      <div>
-        <h1>my heading with state = {this.state.answer} </h1>
-        {toDosComponents}
-      </div>
-    );
+    return <div>{toDosComponents}</div>;
   }
 }
 

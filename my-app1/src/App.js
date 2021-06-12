@@ -1,7 +1,6 @@
 import React from "react";
 // import './App.css';
-// import Lesson from "./lesson22/lesson";
-import Lesson from "./lesson23/lesson";
+import Lesson from "./lesson32/lesson";
 
 function App() {
   return (
