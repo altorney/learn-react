@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* lesson 39 */
+.completed {
+  color: green;
+}
+
+.incomplete {
+  color: red;
+}
